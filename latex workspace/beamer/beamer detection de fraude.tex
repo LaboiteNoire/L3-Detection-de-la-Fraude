@@ -1,0 +1,270 @@
+\documentclass[10pt]{beamer}
+\title{Détection de la Fraude}
+\author{YOUSSFI Hanane, GOGUY Priscilla, ZROUAMA Emmanuel, REINETTE Mahlî}
+\date{}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage{libertine}
+
+
+\usepackage{listings}
+\usepackage{xcolor}
+
+
+\usepackage[many]{tcolorbox}
+\usepackage{lipsum}
+\usepackage{tikz}
+\usetikzlibrary{automata, positioning, arrows}
+\usepackage{pgfplots}
+
+
+\usetheme{Berlin}
+% le préambule
+
+
+
+
+
+
+
+
+
+
+
+% initialisation des couleurs
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+
+
+
+
+
+
+
+%initialisation graphics
+\tikzset{
+->,
+node distance = 2cm}
+
+
+
+
+
+
+
+
+
+
+
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+
+
+
+
+
+
+
+%numérotation
+%\setbeamertemplate{footline}[frame number]
+
+
+
+
+
+\begin{document}
+
+\begin{frame}
+\maketitle
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Table des matières}
+\tableofcontents[]
+\end{frame}
+
+
+
+
+
+
+
+
+
+
+
+
+\section{Introduction}
+\subsection{introduction}
+\begin{frame}
+\frametitle{Introduction}
+
+\footnotemark[1]
+\footnotetext[1]{}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Plan}
+\begin{enumerate}
+	\item 1
+	\item 2
+	\item 3
+	\item 4
+\end{enumerate}
+\end{frame}
+
+
+
+
+
+
+
+
+
+
+
+\begin{frame}
+\begin{center}
+%definition 02
+\begin{tcolorbox}[enhanced,title=vide,attach boxed title to top left=
+{xshift=-2mm,yshift=-2mm},rightrule=1mm,colframe=blue!75!black,colbacktitle=blue!85!black]
+contenu
+\bsc{exemple de matrice : }
+\begin{displaymath}
+	\sigma = \bigl(\begin{matrix}
+    u_1 & u_2 & \cdots & u_n \\
+    v_2 & v_2 & \cdots & v_n
+  \end{matrix}\bigr)
+  .
+\end{displaymath}
+
+\tcblower
+\begin{displaymath}
+	e : 
+	\begin{cases}
+		\text{$\Sigma_1^* \to (\Sigma_2^*$ + $\Sigma_1^*)$}\\
+		m \longmapsto 
+			\begin{cases}
+			e(m_a).v_i.e(m_b) \text{ si } m = m_a.u_i.m_b \\
+			m \text{ sinon}
+			\end{cases}
+	\end{cases}
+	.
+\end{displaymath}
+\end{tcolorbox} 
+\end{center}
+\end{frame}
+
+
+
+
+
+
+
+
+
+
+
+
+\begin{frame}
+\frametitle{Exemple}
+\begin{tcolorbox}[enhanced,title=exemple,attach boxed title to top left=
+{xshift=-2mm,yshift=-2mm},colback=yellow!10,colbacklower=blue,rightrule=1mm]
+\begin{center}
+\begin{tikzpicture}[auto,shorten >=1pt,node distance=2cm,initial text=,scale=0.5, transform shape]
+
+	\node[state,initial]  (q_0) {$q_0$};
+	\node[state,above right=of q_0] (q_1) {$q_1$};
+	\node[state,below right=of q_0] (q_2) {$q_2$};
+	\node[state,accepting,right=of q_1] (q_3) {$q_f$};
+	\node[state,accepting,right=of q_2] (q_4) {$q_f$};
+	
+	
+	\draw (q_0) edge node[above] {$a$} (q_1);
+	\draw (q_0) edge node[above] {$aa$} (q_2);
+	\draw (q_1) edge node[above] {$a$ $\longmapsto$ $c$} (q_3);
+	\draw (q_2) edge node[below] {$aa$ $\longmapsto$ $b$} (q_4);
+\end{tikzpicture}
+\end{center}
+\end{tcolorbox}
+\end{frame}
+
+
+
+
+
+
+
+
+
+\begin{frame}
+\begin{minipage}[t]{0.95\textwidth}
+\begin{tcolorbox}[enhanced,title=vide,attach boxed title to top left=
+{xshift=-2mm,yshift=-2mm},rightrule=1mm,colframe=blue!75!black,colbacktitle=blue!85!black]
+
+\begin{displaymath}
+	f' \text{ } : \text{ } 
+	\begin{cases}
+		\text{$S \times \Sigma^* \to $ $P(E)$} \\
+		(s,m) \longmapsto 
+			\begin{cases}
+				f(s,m) \text{ si } m \in E_{f(s,m)}\\
+				\emptyset \text{ sinon}
+			\end{cases}
+	\end{cases}
+\end{displaymath}
+\tcblower
+\begin{displaymath}
+\begin{tikzpicture}[auto,shorten >=1pt,node distance=2cm,initial text=,scale=0.8, transform shape]
+	\node[state,initial]  (q_0) {$q_0$};
+	\node[state,right=of q_0] (q_1) {$q_1$};
+	\node[state,accepting,right=of q_1] (q_2) {$q_f$};
+	
+	\draw (q_0) edge node[above] {$m_1 \in E_1$} (q_1);
+	\draw (q_1) edge node[above] {$m_2 \in E_2$} (q_2);
+\end{tikzpicture}
+\end{displaymath} .
+
+\end{tcolorbox}
+\end{minipage}
+\end{frame}
+
+
+
+
+
+
+
+
+\end{document}
+
