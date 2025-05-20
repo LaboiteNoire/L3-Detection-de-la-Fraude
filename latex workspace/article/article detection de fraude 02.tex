@@ -28,7 +28,7 @@
 \usepackage{tikz}
 \usetikzlibrary{automata, positioning, arrows}
 \usepackage{pgfplots}
-\usepackage{xcolor}
+\usepackage{listings,xcolor}
 \usepackage{tzplot}
 
 
@@ -92,9 +92,18 @@ node distance = 2cm}
 
 
 
+\lstdefinestyle{mystyle}
+{
+    style=Common,
+    backgroundcolor=\color{Black},
+    basicstyle=\scriptsize\color{White}\ttfamily,
+    keywordstyle=\color{Orange},
+    identifierstyle=\color{Cyan},
+    stringstyle=\color{Red},
+    commentstyle=\color{Green}
+}
 
-
-
+%\lstset{style=mystyle}
 
 
 
@@ -134,24 +143,7 @@ node distance = 2cm}
 \subsection{Introduction}
 
 \subsection{Pondération}
-\begin{center}
-\begin{tabular}{|l|l|} \hline
 
-Incohérence temporelle majeure & 1 \\ \hline
-
-Incohérence météorologique & 1 \\ \hline
-
-Âge incohérent & 1 \\ \hline
-
-Déclaration rapide après souscription & 1 \\ \hline
-
-Coût anormalement élevé ou bas & 1 \\ \hline
-
-Sinistre un dimanche & 1 \\ \hline
-
-
-\end{tabular}
-\end{center}
 
 \part{Userform}
 \begin{center}
@@ -166,6 +158,87 @@ Cette seconde partie est consacrée a la création d'interfaces graphique, perme
 \end{center}
 \section{Liste Portefeuille}
 
+\UseRawInputEncoding\begin{lstlisting}
+Private Sub UserForm_Initialize()
+    Dim num_col As Integer
+    Dim num_lin As Integer
+    num_col = 14
+    num_lin = 1
+    With Me.ListView1
+        .ListItems.Clear
+        .Gridlines = True
+        With .ColumnHeaders
+            .Clear
+            .Add 1, , "id", 30
+            .Add 2, , "caractere frauduleux", 60
+            .Add 3, , "nom", 40
+            .Add 4, , "age", 25
+            .Add 5, , "date souscription", 50
+            .Add 6, , "type sinistre", 50
+            .Add 7, , "lieu", 50
+            
+            .Add 8, , "date sinistre", 50
+            .Add 9, , "date déclaration", 60
+            .Add 10, , "météo", 40
+            .Add 11, , "déscription", 100
+            .Add 12, , "cout", 25
+            .Add 13, , "usage", 30
+            .Add 14, , "crm", 25
+            .Add 15, , "derniere consultation", 70
+        End With
+        While Worksheets("Sheet1").Cells(num_lin + 1, 1) <> ""
+            .ListItems.Add , , Worksheets("Sheet1").Cells(num_lin + 1, 1)
+            .ListItems(num_lin).ListSubItems.Add , , Worksheets("Sheet1").Cells(num_lin + 1, 17)
+            Dim j As Integer
+            For j = 2 To num_col
+                .ListItems(num_lin).ListSubItems.Add , , Worksheets("Sheet1").Cells(num_lin + 1, j)
+            Next j
+            num_lin = num_lin + 1
+        Wend
+    End With
+    Worksheets("options").Cells(2, 1) = num_col
+    Worksheets("options").Cells(2, 2) = num_lin
+    Dim num_lin_reg As Integer
+    num_lin_reg = 1
+    
+    With Me.ListView2
+        .ListItems.Clear
+        .Gridlines = True
+        With .ColumnHeaders
+            .Clear
+            .Add 1, , "id", 30
+            .Add 2, , "score", 40
+            .Add 3, , "nom", 40
+            .Add 4, , "age", 25
+            .Add 5, , "date souscription", 50
+            .Add 6, , "type sinistre", 50
+            .Add 7, , "lieu", 50
+            
+            .Add 8, , "date sinistre", 50
+            .Add 9, , "date déclaration", 60
+            .Add 10, , "météo", 40
+            .Add 11, , "déscription", 100
+            .Add 12, , "cout", 25
+            .Add 13, , "usage", 30
+            .Add 14, , "crm", 25
+            .Add 15, , "derniere consultation", 70
+        End With
+        While Worksheets("register").Cells(num_lin_reg + 1, 1) <> ""
+            .ListItems.Add , , Worksheets("register").Cells(num_lin_reg + 1, 1)
+            .ListItems(num_lin_reg).ListSubItems.Add , , Worksheets("register").Cells(num_lin_reg + 1, 16)
+            Dim v As Integer
+            For v = 2 To num_col
+                .ListItems(num_lin_reg).ListSubItems.Add , , Worksheets("register").Cells(num_lin_reg + 1, v)
+            Next v
+            num_lin_reg = num_lin_reg + 1
+        Wend
+    End With
+    Worksheets("options").Cells(2, 3) = num_lin_reg
+    
+End Sub
+\end{lstlisting}
+%passage en utf-8
+\inputencoding{utf8}
 
 \section{Fenêtres Client}
 
