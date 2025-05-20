@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.15)  13 APR 2025 23:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.15)  19 MAY 2025 15:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**"./article detection de fraude.tex"
-(article detection de fraude.tex
+**"./article detection de fraude 02.tex"
+(article detection de fraude 02.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
 (C:\Users\G603\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -940,43 +940,194 @@ File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (C:\Users\G603\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibra
 ryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (article detection de fraude.aux)
-\openout1 = `"article detection de fraude.aux"'.
+)))
+(C:\Users\G603\AppData\Local\Programs\MiKTeX\tex/latex/tzplot\tzplot.sty
+Package: tzplot 2022/09/28 v2.1 Plot Graphs with TikZ Abbreviations
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Info: Redefining \degres on input line 107.
-LaTeX Info: Redefining \up on input line 107.
+(C:\Users\G603\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse
+.sty
+Package: xparse 2023-10-10 L3 Experimental document command parser
+)
+(C:\Users\G603\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibrarybackgrounds.code.tex
+File: tikzlibrarybackgrounds.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@layerbox@background=\box101
+\pgf@layerboxsaved@background=\box102
+)
+(C:\Users\G603\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\G603\AppData\Local\Programs\MiKTeX\tex/latex/spath3\tikzlibrarycallig
+raphy.code.tex
+(C:\Users\G603\AppData\Local\Programs\MiKTeX\tex/latex/spath3\spath3.sty
+Package: spath3 2024/05/31 v2.8 Functions for manipulating PGF soft paths
+\g__spath_output_int=\count342
+\l__spath_tmpa_dim=\dimen295
+\l__spath_tmpb_dim=\dimen296
+\l__spath_tmpa_int=\count343
+\l__spath_tmpb_int=\count344
+\l__spath_move_x_dim=\dimen297
+\l__spath_move_y_dim=\dimen298
+\l__spath_rectx_dim=\dimen299
+\l__spath_recty_dim=\dimen300
+\g__spath_anon_int=\count345
+)
+\l__cal_tmpa_int=\count346
+\l__cal_tmpb_int=\count347
+\g__cal_path_component_int=\count348
+\g__cal_label_int=\count349
+\l__cal_tmpa_dim=\dimen301
+\l__cal_tmpb_dim=\dimen302
+\l__cal_tmpc_dim=\dimen303
+\l__cal_tmpd_dim=\dimen304
+\l__cal_tmpe_dim=\dimen305
+\l__cal_tmpf_dim=\dimen306
+\l__cal_tmpg_dim=\dimen307
+\l__cal_tmph_dim=\dimen308
+\l__cal_taper_width_dim=\dimen309
+\l__cal_line_width_dim=\dimen310
+)
+(C:\Users\G603\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibraryintersections.code.tex
+(C:\Users\G603\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibra
+ryintersections.code.tex
+\pgf@intersect@solutions=\count350
+))
+(C:\Users\G603\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibrarypatterns.code.tex
+File: tikzlibrarypatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\G603\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibra
+rypatterns.code.tex
+File: pgflibrarypatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\G603\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\G603\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\G603\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\p
+gflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\G603\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\G603\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\p
+gflibraryshapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\G603\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\G603\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\p
+gflibraryshapes.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\G603\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\G603\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\p
+gflibraryshapes.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\G603\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibraryshapes.callouts.code.tex
+(C:\Users\G603\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\p
+gflibraryshapes.callouts.code.tex)))
+(C:\Users\G603\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibra
+ryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowinset=\dimen311
+\pgfarrowlength=\dimen312
+\pgfarrowwidth=\dimen313
+\pgfarrowlinewidth=\dimen314
+)
+(C:\Users\G603\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibrarybending.code.tex
+File: tikzlibrarybending.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\G603\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleb
+ending.code.tex
+File: pgfmodulebending.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\G603\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulen
+onlineartransformations.code.tex
+File: pgfmodulenonlineartransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgftransformnonlinearflatness=\dimen315
+)
+(C:\Users\G603\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibra
+rycurvilinear.code.tex
+File: pgflibrarycurvilinear.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@curvilinear@time@a=\dimen316
+\pgf@curvilinear@length@a=\dimen317
+\pgf@curvilinear@length@b=\dimen318
+\pgf@curvilinear@length@c=\dimen319
+\pgf@curvilinear@length@d=\dimen320
+)
+\pgf@arrows@the@rigidity=\dimen321
+))
+(C:\Users\G603\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibrarydecorations.markings.code.tex
+(C:\Users\G603\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorati
+ons\pgflibrarydecorations.markings.code.tex))
+(C:\Users\G603\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibraryspy.code.tex
+File: tikzlibraryspy.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\tikz@lib@spybox=\box103
+)
+(C:\Users\G603\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibraryfpu.code.tex)
+\pgf@layerbox@behind=\box104
+\pgf@layerboxsaved@behind=\box105
+\pgf@layerbox@above=\box106
+\pgf@layerboxsaved@above=\box107
+\pgf@layerbox@foreground=\box108
+\pgf@layerboxsaved@foreground=\box109
+) (article detection de fraude 02.aux)
+\openout1 = `"article detection de fraude 02.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Info: Redefining \degres on input line 119.
+LaTeX Info: Redefining \up on input line 119.
 
 (C:\Users\G603\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mki
 i
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count342
-\scratchdimen=\dimen295
-\scratchbox=\box101
-\nofMPsegments=\count343
-\nofMParguments=\count344
+\scratchcounter=\count351
+\scratchdimen=\dimen322
+\scratchbox=\box110
+\nofMPsegments=\count352
+\nofMParguments=\count353
 \everyMPshowfont=\toks49
-\MPscratchCnt=\count345
-\MPscratchDim=\dimen296
-\MPnumerator=\count346
-\makeMPintoPDFobject=\count347
+\MPscratchCnt=\count354
+\MPscratchDim=\dimen323
+\MPnumerator=\count355
+\makeMPintoPDFobject=\count356
 \everyMPtoPDFconversion=\toks50
 )
 (C:\Users\G603\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-ba
@@ -989,65 +1140,70 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 g
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 107.
- (article detection de fraude.out) (article detection de fraude.out)
+Package hyperref Info: Link coloring OFF on input line 119.
+ (article detection de fraude 02.out) (article detection de fraude 02.out)
 \@outlinefile=\write4
-\openout4 = `"article detection de fraude.out"'.
+\openout4 = `"article detection de fraude 02.out"'.
 
-\c@lstlisting=\count348
+\c@lstlisting=\count357
 
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 107.
+ on input line 119.
 
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
+23.
+(C:\Users\G603\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
+File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+<img9.png, id=38, 951.555pt x 475.7775pt>
+File: img9.png Graphic file (type png)
+<use img9.png>
+Package pdftex.def Info: img9.png  used on input line 126.
+(pdftex.def)             Requested size: 113.80415pt x 56.90207pt.
+ [1
 
-Overfull \hbox (90.05197pt too wide) in paragraph at lines 111--111
- [][] 
- []
-
-[1
-
-{C:/Users/G603/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-(article detection de fraude.toc)
+{C:/Users/G603/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./img9.png>]
+(article detection de fraude 02.toc)
 \tf@toc=\write5
-\openout5 = `"article detection de fraude.toc"'.
+\openout5 = `"article detection de fraude 02.toc"'.
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.154 \end{document}
-                     [1] (article detection de fraude.aux)
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 134.
+
+[2] [3] (article detection de fraude 02.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
-Package rerunfilecheck Info: File `"article detection de fraude".out' has not c
-hanged.
-(rerunfilecheck)             Checksum: A2C5F6AF04334582E6D3197C61110534;445.
+Package rerunfilecheck Info: File `"article detection de fraude 02".out' has no
+t changed.
+(rerunfilecheck)             Checksum: 8BB529D49FE90AA1E7D43AE0C0DB9A81;1085.
  ) 
 Here is how much of TeX's memory you used:
- 38849 strings out of 474486
- 936751 string characters out of 5744227
- 1932542 words of memory out of 5000000
- 60562 multiletter control sequences out of 15000+600000
- 568101 words of font info for 58 fonts, out of 8000000 for 9000
+ 43823 strings out of 474486
+ 1056594 string characters out of 5744227
+ 1933542 words of memory out of 5000000
+ 65432 multiletter control sequences out of 15000+600000
+ 568414 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,7n,94p,746b,1276s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,6n,94p,749b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\G603\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2
 074.pk> <C:\Users\G603\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
-ecrm1000.pk> <C:\Users\G603\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dp
-i600\ecbx1000.pk> <C:\Users\G603\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/
-ec/dpi600\ecbx1200.pk> <C:\Users\G603\AppData\Local\MiKTeX\fonts/pk/ljfour/jkna
-ppen/ec/dpi600\ecbx1440.pk> <C:\Users\G603\AppData\Local\MiKTeX\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\G603\AppData\Local\MiKTeX\fonts/pk/l
-jfour/jknappen/ec/dpi600\ecrm1728.pk>
-Output written on "article detection de fraude.pdf" (2 pages, 52627 bytes).
+ecbx1000.pk> <C:\Users\G603\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dp
+i600\ecbx1200.pk> <C:\Users\G603\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/
+ec/dpi600\ecbx1440.pk> <C:\Users\G603\AppData\Local\MiKTeX\fonts/pk/ljfour/jkna
+ppen/ec/dpi600\ecrm1000.pk> <C:\Users\G603\AppData\Local\MiKTeX\fonts/pk/ljfour
+/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\G603\AppData\Local\MiKTeX\fonts/pk/l
+jfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\G603\AppData\Local\MiKTeX\fonts
+/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk>
+Output written on "article detection de fraude 02.pdf" (3 pages, 99229 bytes).
 PDF statistics:
- 194 PDF objects out of 1000 (max. 8388607)
- 7 named destinations out of 1000 (max. 500000)
- 45 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 310 PDF objects out of 1000 (max. 8388607)
+ 13 named destinations out of 1000 (max. 500000)
+ 82 words of extra memory for PDF output out of 10000 (max. 10000000)
 

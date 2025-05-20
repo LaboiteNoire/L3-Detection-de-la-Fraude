@@ -1,5 +1,0 @@
-\babel@toc {french}{}\relax 
-\contentsline {part}{I\hspace {1em}Préambule}{1}{part.1}%
-\contentsline {part}{II\hspace {1em}Introduction}{1}{part.2}%
-\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Introduction}{1}{subsection.1.1}%

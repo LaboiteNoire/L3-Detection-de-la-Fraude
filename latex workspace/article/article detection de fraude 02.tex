@@ -1,6 +1,16 @@
-\documentclass[titlepage,10pt,a4paper]{article}
+\documentclass[10pt,a4paper]{article}
 \title{Détection de la Fraude}
-\author{YOUSSFI Hanane, GOGUY Priscilla, ZROUAMA Emmanuel, REINETTE Mahlî}
+\author{YOUSSFI, Hanane\\ 
+		\texttt{hanane.youssfi@etu.univ-lyon1.fr}
+  		\and
+  		GOGUY, Priscilla\\
+  		\texttt{priscilla.goguy@etu.univ-lyon1.fr}
+  		\and
+  		ZROUAMA, Emmanuel\\
+  		\texttt{kaussaha-emmanuel-re.zrouama@etu.univ-lyon1.fr}
+  		\and
+  		REINETTE, Mahlî\\
+  		\texttt{mahli.reinette@etu.univ-lyon1.fr}}
 \date{}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -19,6 +29,8 @@
 \usetikzlibrary{automata, positioning, arrows}
 \usepackage{pgfplots}
 \usepackage{xcolor}
+\usepackage{tzplot}
+
 
 
 % le préambule
@@ -109,46 +121,56 @@ node distance = 2cm}
 \pagecolor{black!20}
 \maketitle
 
-\tableofcontents
-\part{Préambule}
-\part{Introduction}
-\section{Introduction}
-\subsection{Introduction}
-
-
-
-
-
-
 
 \begin{center}
-\begin{minipage}[r]{0.1\textwidth}
-\phantom{aaaaaaa} marge
-\end{minipage}
-\begin{minipage}[r]{0.8\textwidth}
-
-\phantom{aaaaaaa} contenu
-
-\end{minipage}
+	\includegraphics[width=4cm,height=2cm]{img9}
 \end{center}
 
 
-%definition 00 
-\begin{tcolorbox}[enhanced,title=vide,attach boxed title to top left=
-{xshift=-2mm,yshift=-2mm},colback=black!24,rightrule=1mm]
-contenu
-\tcblower
-contenu
+\newpage
+\tableofcontents
 
-\end{tcolorbox}
+\part{Scores Marginaux}
+\subsection{Introduction}
+
+\subsection{Pondération}
+\begin{center}
+\begin{tabular}{|l|l|} \hline
+
+Incohérence temporelle majeure & 1 \\ \hline
+
+Incohérence météorologique & 1 \\ \hline
+
+Âge incohérent & 1 \\ \hline
+
+Déclaration rapide après souscription & 1 \\ \hline
+
+Coût anormalement élevé ou bas & 1 \\ \hline
+
+Sinistre un dimanche & 1 \\ \hline
 
 
+\end{tabular}
+\end{center}
+
+\part{Userform}
+\begin{center}
+\begin{minipage}[r]{0.1\textwidth}
+
+\end{minipage}
+\begin{minipage}[r]{0.8\textwidth}
+
+Cette seconde partie est consacrée a la création d'interfaces graphique, permettant de communiquer avec nos différentes bases de données, de signaler les potentiels 
+
+\end{minipage}
+\end{center}
+\section{Liste Portefeuille}
 
 
+\section{Fenêtres Client}
 
+\section{Enregistrement de nouveaux sinistres}
 
-
-
-
+\section{Choix final}
 
 \end{document}
